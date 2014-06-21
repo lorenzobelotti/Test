@@ -22,7 +22,7 @@ var app = {
 	},
 
     initialize: function() {
-    	//var self = this;
+    	var self = this;
         this.store = new MemoryStore();
         this.store = new MemoryStore(function() {
         	self.showAlert('Store Initialized', 'Info');
